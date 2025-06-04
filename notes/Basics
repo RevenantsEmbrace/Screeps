@@ -1,0 +1,2 @@
+Spawns a basic worker:
+Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Harvester1' );
