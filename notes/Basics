@@ -1,2 +1,11 @@
 Spawns a basic worker:
 Game.spawns['Spawn1'].spawnCreep( [WORK, CARRY, MOVE], 'Harvester1' );
+
+Spawn Harvester with HRV Memory Role.
+Game.spawns['Spawn1'].spawnCreep([WORK, CARRY, MOVE], 'harvester1', {
+  memory: { role: 'HRV' }
+});
+
+
+Let's work on a note for military combat now. We want to be focusing on the potential danger of each "front", these could be general expansion, defence, Invaders and players.
+The danger of a front is based on how often attacks from that front happen i.e expansion is going to be 0, defence would also be 0 but invaders and players would work out an average based on a timer.
