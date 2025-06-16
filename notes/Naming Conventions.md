@@ -11,7 +11,7 @@ Format: AUXIL-ROL-XXX
 
 | Code | Role Name        | Description                              | Fallback Chain  |
 |------|------------------|------------------------------------------|-----------------|
-| HRV  | Harvester        | Gathers energy from sources              | HLR             |
+| HRV  | Harvester        | Gathers energy from sources              | UPG → HLR       |
 | RHV  | Remote Harvester | Harvests source in a non-controlled Room | None            |
 | UPG  | Upgrader         | Upgrades the room controller             | HLR             |
 | BLD  | Builder          | Builds structures                        | REP → UPG → HLR |
